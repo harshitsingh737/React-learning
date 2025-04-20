@@ -11,7 +11,19 @@ function App() {
 const addValue = () => {
 //  console.log("clicked" , counter);
 //  counter = counter + 1
- setCounter(counter+1)
+// setCounter(counter+1)
+
+
+// this will not add +3 on click because it the the function of useState where it will take the bunch of it and treat it as one
+//  setCounter(counter+1)
+//  setCounter(counter+1)
+//  setCounter(counter+1)
+
+// solution
+setCounter(prevCounter => prevCounter+1)
+setCounter(prevCounter => prevCounter+1)
+setCounter(prevCounter => prevCounter+1)
+setCounter(prevCounter => prevCounter+1)
 }
  
 
