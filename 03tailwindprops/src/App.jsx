@@ -9,6 +9,7 @@ function App() {
 
   let myObj = {
     username :"Harshit",
+    password:"132456",
     age:23
   }
 
